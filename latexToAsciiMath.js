@@ -11,7 +11,7 @@ window.latexToAsciiMath = function (latexString) {
         // find next command
         let cmdIndex = latexString.search(/[\\^_].?/);
         if (cmdIndex < 0) {
-            asciiString = latexString;
+            asciiString += latexString;
             //break;
         }
 
@@ -21,13 +21,25 @@ window.latexToAsciiMath = function (latexString) {
         latexString = latexString.substr(cmdIndex);
 
         let cmdEndIndex = latexString.search(/[\ \\{]/);
-        let cmd = latexString.slice(1, cmdEndIndex);
+        let cmd = latexString.slice(0, cmdEndIndex);
+
+        if (latexString.substr(0,1) == '^' || latexString.substr(0,1) == '_') {
+            if (isNaN(latexString.substr(1,1)) == false) {
+                asciiString += cmd;
+                latexString = latexString.substr(cmdEndIndex);
+                // continue;
+            }
+        }
 
         switch(cmd) {
             case 'sin':
             case 'cos':
             case 'tan':
                 console.log('function: ', cmd);
+                break;
+
+            case '^':
+            case '_':
                 break;
 
             case 'frac':
