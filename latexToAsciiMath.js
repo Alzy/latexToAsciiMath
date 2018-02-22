@@ -5,6 +5,7 @@
  * @return {String}             AsciiMath string
  */
 window.latexToAsciiMath = function (latexString) {
+    let originalString = latexString;
     var asciiString = '';
     
     //while(latexString.length) {
@@ -14,13 +15,12 @@ window.latexToAsciiMath = function (latexString) {
             asciiString += latexString;
             //break;
         }
+        asciiString += latexString.slice(0, cmdIndex);
+        latexString = latexString.substr(cmdIndex).trim();
 
 
         // parse command
-        asciiString += latexString.slice(0, cmdIndex);
-        latexString = latexString.substr(cmdIndex);
-
-        let cmdEndIndex = latexString.search(/[\ \\{]/);
+        let cmdEndIndex = latexString.search(/[\ \\\(){+-=_^]/);
         let cmd = latexString.slice(0, cmdEndIndex);
 
         if (latexString.substr(0,1) == '^' || latexString.substr(0,1) == '_') {
@@ -28,37 +28,201 @@ window.latexToAsciiMath = function (latexString) {
                 asciiString += cmd;
                 latexString = latexString.substr(cmdEndIndex);
                 // continue;
+            } else {
+                cmd = latexString.substr(0,1);
+                latexString = latexString.substr(1).trim();
+                console.log(cmd);
             }
+        } else {
+            latexString = latexString.substr(1).trim();
+            cmdEndIndex = latexString.search(/[\ \\\(){+-=_^]/);
+            cmd = latexString.slice(0, cmdEndIndex).trim();
         }
 
+        var ipsa = [];
         switch(cmd) {
+            // followed by single {}
+            case '^':
+            case '_':
+                ipsa = getInnerParenString(latexString, '{');
+                if (ipsa[1] > 1) { asciiString += '('}
+                asciiString += latexToAsciiMath(ipsa[0]);
+                if (ipsa[1] > 1) { asciiString += ')'}
+                latexString = latexString.substr(ipsa[1] + 2).trim();
+                break;
+
+
+            case 'frac':
+            // followed by by {}{}
+                console.log('fraction');
+                latexString = latexString.substr(cmd.length).trim();
+
+                ipsa = getInnerParenString(latexString, '{');
+                if (ipsa[1] > 1) { asciiString += '('}
+                asciiString += latexToAsciiMath(ipsa[0]);
+                if (ipsa[1] > 1) { asciiString += ')'}
+                latexString = latexString.substr(ipsa[1] + 2).trim();
+
+                asciiString += '/';
+
+                ipsa = getInnerParenString(latexString, '{');
+                console.log(ipsa);
+                if (ipsa[1] > 1) { asciiString += '('}
+                asciiString += latexToAsciiMath(ipsa[0]);
+                if (ipsa[1] > 1) { asciiString += ')'}
+                latexString = latexString.substr(ipsa[1] + 2).trim();
+                break;
+
+            // sometimes followed by \left( and \right)
+            case 'arcsin':
+            case 'arccos':
+            case 'arctan':
             case 'sin':
             case 'cos':
             case 'tan':
+            case 'arcsec':
+            case 'arccsc':
+            case 'arccot':
+            case 'sec':
+            case 'csc':
+            case 'cot':
                 console.log('function: ', cmd);
-                break;
-
-            case '^':
-            case '_':
-                break;
-
-            case 'frac':
-                console.log('fraction');
+                asciiString += cmd;
+                latexString = latexString.substr(cmd.length).trim();
                 break;
 
             case 'left':
-            case 'right':
-                console.log('match paren');
+                asciiString += '(';
+                latexString = latexString.substr(cmd.length + 1).trim();
                 break;
+            case 'right':
+                asciiString += ')';
+                latexString = latexString.substr(cmd.length + 1).trim();
+                break;
+
+            case 'alpha':
+            case 'beta':
+            case 'gamma':
+            case 'delta':
+            case 'epsilon':
+            case 'zeta':
+            case 'eta':
+            case 'theta':
+            case 'iota':
+            case 'kappa':
+            case 'lambda':
+            case 'mu':
+            case 'nu':
+            case 'xi':
+            case 'omnicron':
+            case 'pi':
+            case 'rho':
+            case 'sigma':
+            case 'tau':
+            case 'upsilon':
+            case 'phi':
+            case 'chi':
+            case 'psi':
+            case 'omega':
+            case 'Alpha':
+            case 'Beta':
+            case 'Gamma':
+            case 'Delta':
+            case 'Epsilon':
+            case 'Zeta':
+            case 'Eta':
+            case 'Theta':
+            case 'Iota':
+            case 'Kappa':
+            case 'Lambda':
+            case 'Mu':
+            case 'Nu':
+            case 'Xi':
+            case 'Omnicron':
+            case 'Pi':
+            case 'Rho':
+            case 'Sigma':
+            case 'Tau':
+            case 'Upsilon':
+            case 'Phi':
+            case 'Chi':
+            case 'Psi':
+            case 'Omega':
+                console.log('hhhh');
+                asciiString += cmd;
+                latexString = latexString.substr(cmd.length).trim();
+                break;
+                
         }
 
+
         console.log('\n\n');
-        console.log('cmd: ', cmdIndex);
-        console.log('cmd: ', cmd);
+        console.log('  org: ', originalString);
+        console.log('\n\n');
+        console.log('  cmd: ', cmdIndex);
+        console.log('  cmd: ', cmd);
         console.log('ascii: ', asciiString);
-        console.log('latex: ', latexString);
+        console.log('rmtex: ', latexString);
 
         console.log('\n\n');
         console.log('chRem:: ', latexString.length);
+
+        if (latexString.length > 0) {
+            latexToAsciiMath(latexString);
+        }
+        return asciiString;
     //}
+}
+
+
+function getInnerParenString(str, openParen) {
+    let innerString = '';
+    let innerStringLength = 0;
+
+    let closeParen = '';
+    switch (openParen) {
+        case '(':
+            closeParen = ')';
+            break;
+        case '{':
+            closeParen = '}';
+            break;
+        case '[':
+            closeParen = ']';
+            break;
+        default:
+            closeParen = ')';
+            break;
+    }
+    let nextOpenParenIndex = str.search(openParen);
+    let nextCloseParenIndex = str.search(closeParen);
+
+    // start after initial ({[ if any.
+    if (nextOpenParenIndex == 0) {
+        str = str.substr(1);
+        nextOpenParenIndex = str.search(openParen);
+        nextCloseParenIndex = str.search(closeParen);
+        console.log(str);
+    } else if (nextCloseParenIndex < 0) {
+        alert('Syntax Error: No matching close bracket in entry.');
+        return;
+    }
+
+    var openCount = 0;
+    var closeCount = 0;
+    for (let i = 0; i < str.length; i++) {
+        let strChar = str.charAt(i);
+        if (strChar == openParen) {
+            openCount++;
+        }
+        if (strChar == closeParen) {
+            closeCount++;
+        }
+
+        if (closeCount > openCount) {
+            return [innerString, innerStringLength];
+        }
+        innerString += strChar;
+        innerStringLength++;
+    }
 }
