@@ -149,17 +149,17 @@ window.latexToAsciiMath = function (latexString) {
     }
 
     // DEBUG LOGS
-    console.log('\n\n');
-    console.log('  org: ', originalString);
-    console.log('\n\n');
-    console.log('  cmd: ', cmdIndex);
-    console.log('  cmd: ', cmd);
-    console.log('ascii: ', asciiString);
-    console.log('rmtex: ', latexString);
+    // console.log('\n\n');
+    // console.log('  org: ', originalString);
+    // console.log('\n\n');
+    // console.log('  cmd: ', cmdIndex);
+    // console.log('  cmd: ', cmd);
+    // console.log('ascii: ', asciiString);
+    // console.log('rmtex: ', latexString);
 
-    console.log('\n\n');
-    console.log('chRem:: ', latexString.length);
-    console.log('\n\n\n\n');
+    // console.log('\n\n');
+    // console.log('chRem:: ', latexString.length);
+    // console.log('\n\n\n\n');
 
     if (latexString.length == originalString.length) {
         throw('Unable to parse LaTeX string.');
