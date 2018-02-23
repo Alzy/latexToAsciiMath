@@ -2,19 +2,59 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>test</title>
+	<!-- JQUERY -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- BOOTSTRAP -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- THIS STUFF -->
 	<script src="latexToAsciiMath.js"></script>
+	<title>pages</title>
 </head>
 <body>
-	<script type="text/javascript">
-		// latexToAsciiMath('5x^2\\cos \\left(\\pi \\right)+\\frac{1}{2\\sin \\left(\\theta \\right)}\\left(e^{t^2}\\right)');
-		// latexToAsciiMath('\\cos \\left(\\pi \\right)+\\frac{1}{2\\sin \\left(\\theta \\right)}\\left(e^{t^2}\\right)');
-		// latexToAsciiMath('\\left(\\pi \\right)+\\frac{1}{2\\sin \\left(\\theta \\right)}\\left(e^{t^2}\\right)');
-		// latexToAsciiMath('\\pi \\right)+\\frac{1}{2\\sin \\left(\\theta \\right)}\\left(e^{t^2}\\right)');
-		// latexToAsciiMath('\\right)+\\frac{1}{2\\sin \\left(\\theta \\right)}\\left(e^{t^2}\\right)');
-		// latexToAsciiMath('+\\frac{1}{2\\sin \\left(\\theta \\right)}\\left(e^{t^2}\\right)');
-		// latexToAsciiMath('\\left(e^{t^2}\\right)');
-		// latexToAsciiMath('\\right)');
-	</script>
+	<main>
+		<input type="text" name="math" id="ltx" onkeyup="parse()">
+		<span id="output"></span>
+	</main>
 </body>
+<script type="text/javascript">
+	function parse() {
+		console.log('h');
+		let ltx = document.getElementById('ltx').value;
+		let output = document.getElementById('output');
+
+		output.textContent = latexToAsciiMath(ltx);
+	}
+
+
+	var t0 = performance.now();
+	var ascii = latexToAsciiMath('\\sqrt{3}');
+	var t1 = performance.now();
+	
+	console.log('FINAL ASCII::', ascii);
+	console.log('\nEXECUTION TIME::', t1-t0);
+</script>
 </html>
+
+<style type="text/css">
+	body {
+		background-color: #31405c;
+		width: 100vw;
+		height: 100vh;
+	}
+
+	main {
+		position: relative;
+		width: 30%;
+		height: auto;
+		margin: auto;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	main input {
+		width: 100%;
+	}
+</style>
