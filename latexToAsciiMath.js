@@ -33,7 +33,7 @@ window.latexToAsciiMath = function (latexString) {
 
     var ipsa = [];
     switch(cmd) {
-        // followed by single {}
+        // single character command, sometimes followed by single {}
         case '^':
         case '_':
             if (latexString.substr(0, 1) != '{') {break};
@@ -42,6 +42,20 @@ window.latexToAsciiMath = function (latexString) {
             if (ipsa[1] > 1) { asciiString += '('}
             asciiString += latexToAsciiMath(ipsa[0]);
             if (ipsa[1] > 1) { asciiString += ')'}
+            latexString = latexString.substr(ipsa[1] + 2).trim();
+            break;
+
+        // followed by single {}
+        case 'sqrt':
+        case 'log':
+        case 'ln':
+            asciiString += cmd;
+            latexString = latexString.substr(cmd.length).trim();
+
+            ipsa = getInnerParenString(latexString, '{');
+            asciiString += '(';
+            asciiString += latexToAsciiMath(ipsa[0]);
+            asciiString += ')';
             latexString = latexString.substr(ipsa[1] + 2).trim();
             break;
 
@@ -66,9 +80,6 @@ window.latexToAsciiMath = function (latexString) {
             break;
 
         // followed by \left( and \right)
-        case 'sqrt':
-        case 'log':
-        case 'ln':
         case 'arcsin':
         case 'arccos':
         case 'arctan':
@@ -149,17 +160,17 @@ window.latexToAsciiMath = function (latexString) {
     }
 
     // DEBUG LOGS
-    // console.log('\n\n');
-    // console.log('  org: ', originalString);
-    // console.log('\n\n');
-    // console.log('  cmd: ', cmdIndex);
-    // console.log('  cmd: ', cmd);
-    // console.log('ascii: ', asciiString);
-    // console.log('rmtex: ', latexString);
+    console.log('\n\n');
+    console.log('  org: ', originalString);
+    console.log('\n\n');
+    console.log('  cmd: ', cmdIndex);
+    console.log('  cmd: ', cmd);
+    console.log('ascii: ', asciiString);
+    console.log('rmtex: ', latexString);
 
-    // console.log('\n\n');
-    // console.log('chRem:: ', latexString.length);
-    // console.log('\n\n\n\n');
+    console.log('\n\n');
+    console.log('chRem:: ', latexString.length);
+    console.log('\n\n\n\n');
 
     if (latexString.length == originalString.length) {
         throw('Unable to parse LaTeX string.');
