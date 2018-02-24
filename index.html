@@ -2,47 +2,52 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<!-- JQUERY -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-	<!-- BOOTSTRAP -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-	<!-- THIS STUFF -->
+	<link rel="stylesheet" type="text/css" href="css/mathquill.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/mathquill.min.js"></script>
 	<script src="latexToAsciiMath.js"></script>
 	<title>pages</title>
 </head>
 <body>
 	<main>
-		<input type="text" name="math" id="ltx" onkeyup="parse()">
+		<h3>mathquill input</h3>
+		<span id="mathquill-input"></span>
+		<h3>ascii output</h3>
 		<span id="output"></span>
 	</main>
 </body>
 <script type="text/javascript">
-	function parse() {
-		console.log('h');
-		let ltx = document.getElementById('ltx').value;
+	var MQ = MathQuill.getInterface(2);
+	var htmlElement = document.getElementById('mathquill-input');
+	var config = {
+		handlers: { edit: function(mathField){
+			console.log(mathField.latex());
+			parse(mathField.latex());
+		} },
+	autoCommands: 'pi theta sqrt sum',
+	autoOperatorNames: 'sin cos',
+	restrictMismatchedBrackets: true
+	};
+	var mathField = MQ.MathField(htmlElement, config);
+
+	function parse(latexString) {
+		// let ltx = document.getElementById('ltx').value;
 		let output = document.getElementById('output');
-
-		output.textContent = latexToAsciiMath(ltx);
+		try {
+			output.textContent = latexToAsciiMath(latexString);
+		} catch(e) {
+			// do nothing.
+		}
 	}
-
-
-	var t0 = performance.now();
-	var ascii = latexToAsciiMath('\\sqrt{3}');
-	var t1 = performance.now();
-	
-	console.log('FINAL ASCII::', ascii);
-	console.log('\nEXECUTION TIME::', t1-t0);
 </script>
 </html>
 
 <style type="text/css">
 	body {
-		background-color: #31405c;
+		background-color: #24292e;
 		width: 100vw;
 		height: 100vh;
+		position: absolute;
 	}
 
 	main {
@@ -50,11 +55,23 @@
 		width: 30%;
 		height: auto;
 		margin: auto;
-		top: 50%;
+		top: 45%;
 		transform: translateY(-50%);
 	}
 
+	main h3 {
+		color: lightgray;
+	}
 	main input {
 		width: 100%;
+	}
+	main span#mathquill-input {
+		background-color: white;
+		width: 100%;
+	}
+	main span#output{
+		color: white;
+		width: 100%;
+		min-height: 1em;
 	}
 </style>
