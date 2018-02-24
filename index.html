@@ -10,6 +10,7 @@
 </head>
 <body>
 	<main>
+		<h1>LaTeX to ASCII Math</h1>
 		<h3>mathquill input</h3>
 		<span id="mathquill-input"></span>
 		<h3>ascii output</h3>
@@ -48,6 +49,7 @@
 		width: 100vw;
 		height: 100vh;
 		position: absolute;
+		overflow: hidden;
 	}
 
 	main {
@@ -55,11 +57,11 @@
 		width: 30%;
 		height: auto;
 		margin: auto;
-		top: 45%;
+		top: 40%;
 		transform: translateY(-50%);
 	}
 
-	main h3 {
+	main h3, main h1 {
 		color: lightgray;
 	}
 	main input {
