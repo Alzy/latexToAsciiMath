@@ -18,7 +18,7 @@ window.latexToAsciiMath = function (latexString) {
 
 
     // parse command
-    let cmdEndIndex = latexString.search(/[\ \\\(){+-=_^]/);
+    let cmdEndIndex = latexString.search(/[\0\ \\\(){+-=_^]/);
     let cmd = latexString.slice(0, cmdEndIndex);
 
     if (latexString.substr(0,1) == '^' || latexString.substr(0,1) == '_') {
@@ -64,6 +64,10 @@ window.latexToAsciiMath = function (latexString) {
         case 'frac':
             latexString = latexString.substr(cmd.length).trim();
 
+            // wrap fraction in parenthesis first
+            // weird parsing happens otherwise
+            asciiString += '(';
+            // ^^ fraction open paren
             ipsa = getInnerParenString(latexString, '{');
             if (ipsa[1] > 1) { asciiString += '('}
             asciiString += latexToAsciiMath(ipsa[0]);
@@ -77,6 +81,8 @@ window.latexToAsciiMath = function (latexString) {
             asciiString += latexToAsciiMath(ipsa[0]);
             if (ipsa[1] > 1) { asciiString += ')'}
             latexString = latexString.substr(ipsa[1] + 2).trim();
+            asciiString += ')';
+            // ^^ fraction closing paren
             break;
 
         // followed by \left( and \right)
@@ -103,6 +109,11 @@ window.latexToAsciiMath = function (latexString) {
         case 'right':
             asciiString += ')';
             latexString = latexString.substr(cmd.length + 1).trim();
+            break;
+
+        case 'cdot':
+            asciiString += '*';
+            latexString = latexString.substr(cmd.length).trim();
             break;
 
         case 'alpha':
@@ -156,7 +167,10 @@ window.latexToAsciiMath = function (latexString) {
             asciiString += cmd;
             latexString = latexString.substr(cmd.length).trim();
             break;
-            
+        
+        default:
+            console.log('unrecognized command');
+            break;
     }
 
     // DEBUG LOGS
