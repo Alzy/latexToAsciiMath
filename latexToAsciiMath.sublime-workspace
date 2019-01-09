@@ -1,0 +1,939 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"as",
+				"asciiString"
+			],
+			[
+				"active",
+				"activeLine"
+			],
+			[
+				"roo",
+				"rootFolderId\t(user.js)"
+			],
+			[
+				"this",
+				"thisArray"
+			],
+			[
+				"that",
+				"thatArray"
+			],
+			[
+				"user",
+				"userRootFolder"
+			],
+			[
+				"use",
+				"userRootFolder"
+			],
+			[
+				"first",
+				"firstOrFail"
+			],
+			[
+				"tr",
+				"true\t(User.php)"
+			],
+			[
+				"str",
+				"streamUploadUrl"
+			],
+			[
+				"nav",
+				"navigation\t(navbar.blade.php)"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"con",
+				"content\t(navbar.blade.php)"
+			],
+			[
+				"sec",
+				"section\tTag"
+			],
+			[
+				"file",
+				"file-manager"
+			],
+			[
+				"pus",
+				"pushOrReplaceByKey"
+			],
+			[
+				"responseF",
+				"responseFiles"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"togg",
+				"toggleable"
+			],
+			[
+				"dom",
+				"domFooter"
+			],
+			[
+				"canc",
+				"cancelSaveAs"
+			],
+			[
+				"saveAs",
+				"saveAsCancelButton"
+			],
+			[
+				"ac",
+				"activeLine\t(init.js)"
+			],
+			[
+				"page",
+				"pageEditor"
+			],
+			[
+				"foc",
+				"focusedMQ"
+			],
+			[
+				"retur",
+				"return\t(usermenu.js)"
+			],
+			[
+				"res",
+				"responseData"
+			],
+			[
+				"un",
+				"unloadPages"
+			],
+			[
+				"thi",
+				"this"
+			],
+			[
+				"re",
+				"reject\t.reject()"
+			],
+			[
+				"consol",
+				"console.log\t(scratchfolder.js)"
+			],
+			[
+				"thisF",
+				"thisScratchFile"
+			],
+			[
+				"act",
+				"activeFile\t(filemanager.js)"
+			],
+			[
+				"new",
+				"newInfo"
+			],
+			[
+				"sort",
+				"sort_order"
+			],
+			[
+				"sor",
+				"sortOrder"
+			],
+			[
+				"inde",
+				"index"
+			],
+			[
+				"save",
+				"saveActiveFile\t(filemanager.js)"
+			],
+			[
+				"prom",
+				"promptSaveAs\t(filemanager.js)"
+			],
+			[
+				"fil",
+				"fileManager\t(usermenu.js)"
+			],
+			[
+				"preve",
+				"preventDefault\t(scratchfile.js)"
+			],
+			[
+				"so",
+				"sortOrder"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"ind",
+				"index"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"the",
+				"then\t.then()"
+			],
+			[
+				"sav",
+				"saveAsFooter"
+			],
+			[
+				"clo",
+				"close\t(usermenu.js)"
+			],
+			[
+				"us",
+				"userMenu"
+			],
+			[
+				"sc",
+				"scratchFile"
+			],
+			[
+				"push",
+				"push\t(scratchpaper.js)"
+			],
+			[
+				"S",
+				"ScratchFile"
+			],
+			[
+				"sa",
+				"saveAsFooter"
+			],
+			[
+				"conten",
+				"contentContainerElement\t(usermenu.js)"
+			],
+			[
+				"th",
+				"then\t.then()"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"respon",
+				"responseData\t(scratchfile.js)"
+			],
+			[
+				"cre",
+				"created_at"
+			],
+			[
+				"fol",
+				"folder_id"
+			],
+			[
+				"prod",
+				"production"
+			],
+			[
+				"pro",
+				"prod"
+			],
+			[
+				"patch",
+				"patchScratchPaper\t(scratchpaper.js)"
+			],
+			[
+				"is",
+				"inSync\t(scratchpaper.js)"
+			],
+			[
+				"acti",
+				"activeFile"
+			],
+			[
+				"post",
+				"postScratchPaper\t(scratchpaper.js)"
+			],
+			[
+				"fold",
+				"folderId"
+			],
+			[
+				"pu",
+				"push\t(scratchpaper.js)"
+			],
+			[
+				"Sc",
+				"ScratchFile"
+			],
+			[
+				"po",
+				"postFile\t(scratchfile.js)"
+			],
+			[
+				"pat",
+				"patchFile\t(scratchfile.js)"
+			],
+			[
+				"ch",
+				"children\t.children()"
+			],
+			[
+				"tex",
+				"text-line"
+			],
+			[
+				"qui",
+				"quillElement"
+			],
+			[
+				"ins",
+				"instantiateLineInterface"
+			],
+			[
+				"clea",
+				"clearLineContent\t(scratchpaper.js)"
+			],
+			[
+				"high",
+				"highlighted\t(scratchpaper.js)"
+			],
+			[
+				"cle",
+				"clearActiveLine\t(scratchpaper.js)"
+			],
+			[
+				"du",
+				"duplicateActiveLine\t(scratchpaper.js)"
+			],
+			[
+				"set",
+				"setLineContent"
+			],
+			[
+				"dup",
+				"duplicateLine\t(keybinds.js)"
+			],
+			[
+				"clear",
+				"clearLine\t(keybinds.js)"
+			],
+			[
+				"conte",
+				"contentString"
+			],
+			[
+				"la",
+				"latex\t(utils.js)"
+			],
+			[
+				"crea",
+				"createLine"
+			],
+			[
+				"Math",
+				"MQ.MathField\t(utils.js)"
+			],
+			[
+				"don",
+				"domElement"
+			],
+			[
+				"pag",
+				"pageEditor"
+			],
+			[
+				"ref",
+				"reflowPages"
+			],
+			[
+				"line",
+				"lines\t(scratchpaper.js)"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"thisLi",
+				"thisLineLatex"
+			],
+			[
+				"thisp",
+				"thisPageEditor"
+			],
+			[
+				"js",
+				"jsonData"
+			],
+			[
+				"scrap",
+				"scratchPaper"
+			],
+			[
+				"load",
+				"loadNewPage"
+			],
+			[
+				"thisPa",
+				"thisPageEditor"
+			],
+			[
+				"v",
+				"viewNextPage"
+			],
+			[
+				"add",
+				"addNewPage\t(pageeditor.js)"
+			],
+			[
+				"tur",
+				"true\t(init.js)"
+			],
+			[
+				"fo",
+				"focus\t.focus()"
+			],
+			[
+				"Scratch",
+				"ScratchPaper"
+			],
+			[
+				"sele",
+				"selector"
+			],
+			[
+				"open",
+				"openInContentContainer"
+			],
+			[
+				"op",
+				"openInContentContainer"
+			],
+			[
+				"empt",
+				"emptyContentContainer"
+			],
+			[
+				"cont",
+				"contentContainerElement"
+			],
+			[
+				"elem",
+				"element"
+			],
+			[
+				"content",
+				"content-container\t(_scratch.scss)"
+			],
+			[
+				"domElementW",
+				"domElementWrapper"
+			],
+			[
+				"User",
+				"UserMenu\t(usermenu.js)"
+			],
+			[
+				"app",
+				"append\t.append()"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"class",
+				"className\t(filemanager.js)"
+			],
+			[
+				"thisS",
+				"thisScratchFile"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pa",
+				"param\t@param"
+			],
+			[
+				"scrac",
+				"scratchFile"
+			],
+			[
+				"folder",
+				"folderId"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "latexToAsciiMath/latexToAsciiMath.js",
+			"settings":
+			{
+				"buffer_size": 7095,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "latexToAsciiMath/index.html",
+			"settings":
+			{
+				"buffer_size": 1633,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<script language=\"javascript\" src=\"public.js\"></script>\n<style type=\"text/css\">\n</style>\n<link rel=\"stylesheet\" type=\"text/css\" />\n<script> \n\tdocument.write('<script src=\"get_camera_params.cgi?user='+encodeURIComponent(top.user)+'&pwd='+encodeURIComponent(top.pwd)+'\"><\\/script>');\n</script>\n\n<script language=\"javascript\">\nvar R320_240=8;\nvar R640_480=32;\nvar ptz_type=0;\nvar PTZ_STOP=1;\nvar TILT_UP=0;\nvar TILT_UP_STOP=1;\nvar TILT_DOWN=2;\nvar TILT_DOWN_STOP=3;\nvar PAN_LEFT_STOP=5;\nvar PAN_LEFT = 4;\nvar PAN_RIGHT = 6;\nvar PAN_RIGHT_STOP=7;\nvar PTZ_LEFT_UP = 90;\nvar PTZ_RIGHT_UP = 91;\nvar PTZ_LEFT_DOWN = 92;\nvar PTZ_RIGHT_DOWN = 93;\nvar PTZ_CENTER=25;\nvar PTZ_VPATROL=26;\nvar PTZ_VPATROL_STOP=27;\nvar PTZ_HPATROL=28;\nvar PTZ_HPATROL_STOP=29;\nvar PTZ_PELCO_D_HPATROL=20;\nvar PTZ_PELCO_D_HPATROL_STOP=21;\nvar IO_ON = 95;\nvar IO_OFF = 94;\nvar count=0;\nvar ptime=500;\nvar lock = true;\nfunction decoder_control_2(command)\n{\n\taction_zone.location='decoder_control.cgi?user='+encodeURIComponent(top.user)+'&pwd='+encodeURIComponent(top.pwd)+'&command='+command;\n}\nfunction camera_control_2(param,value)\n{\n    \taction_zone.location='camera_control.cgi?user='+encodeURIComponent(top.user)+'&pwd='+encodeURIComponent(top.pwd)+'&param='+param+'&value='+value;\n}\nfunction decoder_control(command)\n{\n\tdecoder_control_2(command);\n\treset_image();\n}\nfunction Pause(obj,iMinSecond)\n{\n\tif (window.eventList==null) window.eventList=new Array();\n\t\tvar ind=-1;\n\tfor (var i=0;i<window.eventList.length;i++)\n\t{\n\t\tif (window.eventList[i]==null) \n\t\t{\n\t\t\twindow.eventList[i]=obj;\n\t\t\tind=i;\n\t\t\tbreak;\n\t\t}\n\t}\n\n\tif (ind==-1)\n\t{\n\t\tind=window.eventList.length;\n\t\twindow.eventList[ind]=obj;\n\t}\n\tsetTimeout(\"GoOn(\" + ind + \")\",iMinSecond);\n}\nfunction GoOn(ind)\n{\n\tvar obj=window.eventList[ind];\n\twindow.eventList[ind]=null;\n\tif (obj.NextStep) obj.NextStep();\n\telse obj();\n}\nfunction up_click()\n{\n\t(flip&0x01)?decoder_control_2(TILT_DOWN):decoder_control_2(TILT_UP);\n\tPause(this,ptime);\n\tthis.NextStep=function()\n\t{\n\t\tif (!ptz_type)\n\t\t    decoder_control_2(PTZ_STOP);\n\t\telse if (flip&0x01)\n\t\t    decoder_control_2(TILT_DOWN_STOP);\n\t\telse\t\n\t\t    decoder_control_2(TILT_UP_STOP);   \n\t}\n}\nfunction down_click()\n{\n    (flip&0x01)?decoder_control_2(TILT_UP):decoder_control_2(TILT_DOWN);\n    Pause(this,ptime);\n    this.NextStep=function()\n    {\n        if (!ptz_type)\n\t        decoder_control_2(PTZ_STOP);\n        else if (flip&0x01)\n\t        decoder_control_2(TILT_UP_STOP);\n        else\n\t        decoder_control_2(TILT_DOWN_STOP);\t\t\n    }\n}\nfunction left_click()\n{\n\t (flip&0x02)?decoder_control_2(PAN_LEFT):decoder_control_2(PAN_RIGHT);\n\tPause(this,ptime);\n\tthis.NextStep=function()\n\t{\n\t    if (!ptz_type)\n\t        decoder_control_2(PTZ_STOP);\n\t    else if (flip&0x02)\n\t        decoder_control_2(PAN_LEFT_STOP);\n\t    else\t\n\t        decoder_control_2(PAN_RIGHT_STOP);\n\t}\n}\nfunction right_click()\n{\n\n\t(flip&0x02)?decoder_control_2(PAN_RIGHT):decoder_control_2(PAN_LEFT);\n\tPause(this,ptime);\n\tthis.NextStep=function()\n\t{\n\t    if (!ptz_type)\n\t        decoder_control_2(PTZ_STOP);\n\t    else if (flip&0x02)\n\t        decoder_control_2(PAN_RIGHT_STOP);\n\t    else\t\n\t        decoder_control_2(PAN_LEFT_STOP);\t\n\t}\n   \n}\nfunction leftup_click()\n{\n\tif (ptz_type)\n\t    return;\n\tif ((flip&0x03)==0x03)\n\t    decoder_control_2(PTZ_LEFT_DOWN);\n\telse if (flip&0x02)\n\t    decoder_control_2(PTZ_LEFT_UP);\n\telse if (flip&0x01)\n\t    decoder_control_2(PTZ_RIGHT_DOWN);\n\telse\t\t\n\t    decoder_control_2(PTZ_RIGHT_UP);\n\tPause(this,ptime);\n\tthis.NextStep=function()\n\t{\n\t    if (!ptz_type) decoder_control_2(PTZ_STOP);\n\t}\n}\nfunction rightup_click()\n{\n    if (ptz_type)\n\t    return;\n    if ((flip&0x03)==0x03)\n\t    decoder_control_2(PTZ_RIGHT_DOWN);\n    else if (flip&0x02)\n\t    decoder_control_2(PTZ_RIGHT_UP);\n    else if (flip&0x01)\n\t    decoder_control_2(PTZ_LEFT_DOWN);\n    else\t\t\n\t    decoder_control_2(PTZ_LEFT_UP);\n    Pause(this,ptime);\n    this.NextStep=function()\n    {\n        if (!ptz_type) decoder_control_2(PTZ_STOP);\n    }\n\t\n    \n}\nfunction leftdown_click()\n{\n    if (ptz_type)\n\t    return;\n    if ((flip&0x03)==0x03)\n\t    decoder_control_2(PTZ_LEFT_UP);\n    else if (flip&0x02)\n\t    decoder_control_2(PTZ_LEFT_DOWN);\n    else if (flip&0x01)\n\t    decoder_control_2(PTZ_RIGHT_UP);\n    else\t\t\n\t    decoder_control_2(PTZ_RIGHT_DOWN);\n    Pause(this,ptime);\n    this.NextStep=function()\n    {\n        if (!ptz_type) decoder_control_2(PTZ_STOP);\n    }\n\n}\nfunction rightdown_click()\n{\n    if (ptz_type)\n\t    return;\n    if ((flip&0x03)==0x03)\n\t    decoder_control_2(PTZ_RIGHT_UP);\n    else if (flip&0x02)\n\t    decoder_control_2(PTZ_RIGHT_DOWN);\n    else if (flip&0x01)\n\t    decoder_control_2(PTZ_LEFT_UP);\n    else\t\t\n\t    decoder_control_2(PTZ_LEFT_DOWN);\n    Pause(this,ptime);\n    this.NextStep=function()\n    {\n        if (!ptz_type) decoder_control_2(PTZ_STOP);\n    }\n\n   \n}\nfunction center_onclick() \n{\n\tif (!ptz_type) decoder_control_2(PTZ_CENTER);\n}\nfunction vpatrol_onclick() \n{\n    if (!ptz_type) decoder_control_2(PTZ_VPATROL);\n    reset_image();\n}\nfunction vpatrolstop_onclick() \n{\n\tif (!ptz_type) decoder_control_2(PTZ_VPATROL_STOP);\n\treset_image();\n}\nfunction hpatrol_onclick() \n{\n\tptz_type?decoder_control_2(PTZ_PELCO_D_HPATROL):decoder_control_2(PTZ_HPATROL);\n\treset_image();\n}\nfunction hpatrolstop_onclick() \n{\n\tptz_type?decoder_control_2(PTZ_PELCO_D_HPATROL_STOP):decoder_control_2(PTZ_HPATROL_STOP);\n\treset_image();\n}\t\nfunction plus_brightness()\n{\n\tval=brightness_input.value;\n\tif (val++<15)\n\t{\n\tbrightness_input.value=val;\n\tcamera_control_2(1,val*16);\n\t}\n}\nfunction minus_brightness()\n{\n\tval=brightness_input.value;\n\tif (val-->0)\n\t{\n\tbrightness_input.value=val;\n\tcamera_control_2(1,val*16);\n\t}\n}\nfunction plus_contrast()\n{\n\tval=contrast_input.value;\n\tif (val++<6)\n\t{\n\tcontrast_input.value=val;\n\tcamera_control_2(2,val);\n\t}\n}\t\nfunction minus_contrast()\n{\n\tval=contrast_input.value;\n\tif (val-->0)\n\t{\n\tcontrast_input.value=val;\n\tcamera_control_2(2,val);\n\t}\n} \nfunction set_flip(t,d)\n{\n\tif(t==1)\n\t{\n\t\tif(d)\n\t{\n\t\tflip|=1;\n\t}\n\telse\n\t{\n\t\tflip&=2;\n\t}\n\t}\n\telse if(t==2)\n\t{\n\t\tif(d)\n\t\t{\n\t\t\tflip|=2;\n\t\t}\n\t\telse\n\t\t{\n\t\t\tflip&=1;\n\t\t}\n\t}\t\n\tlock = false;\t\n\tcamera_control_2(5,flip);\n\treset_image(5000);\n}\nfunction set_M(v,_v)\n{\n\tcamera_control_2(v,_v);\n}\nfunction set_R(v,_v)\n{\n\tlock = false;\n\tcamera_control_2(v,_v);\n\treset_image(4000);\n}\nfunction body_onload()\n{   \n\tif ( top.pri == 1 )\n\t{\n\t\ttr_operator.style.display= 'none';\n\t\ttr_mode.style.display = 'none';\n\n\t\ttr_reversal.style.display= 'none';\n\t}\n\n\t\n\timgDisplay.src=\"snapshot.cgi?user=\"+encodeURIComponent(top.user)+\"&pwd=\"+encodeURIComponent(top.pwd);\n\tgocenter.title=top.str_center;\n\tvpatrol.title=top.str_vertical_patrol;\n\tvpatrolstop.title=top.str_stop_vertical_patrol;\n\thpatrol.title=top.str_horizon_patrol;\n\thpatrolstop.title=top.str_stop_horizon_patrol;\n\n\tresolution_sel.value=resolution;\n\tmode_sel.value=mode;\n\n\timage_reversal.checked=(flip&0x01)?true:false;\n\timage_mirror.checked=(flip&0x02)?true:false;\n\twindow.status='';\n}\t\nfunction load_video()\n{\n\twindow.status=\" \";\n\tsetTimeout(\"reload_image()\",100);\n}\nfunction reload_image()\n{\n\tif (!lock) return;\n\tvar xx = new Image();\n\txx.src = \"snapshot.cgi?user=\"+encodeURIComponent(top.user)+\"&pwd=\"+encodeURIComponent(top.pwd)+\"&count=\"+count;\t\n\tcount++;\n\tdocument.getElementById(\"imgDisplay\").src = xx.src;\n\twindow.status=\" \";\n}\nfunction reset_image(t)\n{\n\tif (t == 'undefined')\n\t\tt = 100;\n\twindow.status=\" \";\n\tsetTimeout(function(){lock=true;reload_image();}, t);\n}\n</script>\n</head>\n\n<body onLoad=\"body_onload()\">\n<iframe name=\"action_zone\" style=\"display:none\"></iframe>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\">\n\t<tr>\n\t\t<td height=\"30\">&nbsp;</td>\n\t</tr>\n\t<tr>\n\t\t<td bgcolor=\"black\" width=\"640\" height=\"460\" align=\"center\" valign=\"middle\"> \n\t\t\t<img alt=\"video\" id=\"imgDisplay\" name=\"imgDisplay\" onload=\"load_video()\"/>\n\t\t</td>\n\t</tr>\n</table>\n\n<table ><tr height='2'></tr></table>\n<table rules=none  border=\"1\" cellpadding=\"0\" cellspacing=\"0\"  align=\"center\" style=\"font-family:Arial\" bordercolor = \"#0186d1\">\n\t<tr id=\"tr_operator\">\n\t\t<td rowspan=\"3\">\n\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=100%>\n\t\t\t\t<tr>\n\t\t\t\t\t<td align=\"center\">\n\t\t\t\t\t\t<div><img style=\"cursor:pointer\"  id=\"leftup\" src=\"images/leftup_up.png\" onMouseDown=\"leftup_click()\" onMouseOver=\"this.src=' images/leftup_down.png'\" onMouseOut=\"this.src=' images/leftup_up.png'\"/><img style=\"cursor:hand\" id=\"up\" src=\"images/up_up.png\" onMouseDown=\"up_click()\"   onmouseover=\"this.src=' images/up_down.png'\" onMouseOut=\"this.src=' images/up_up.png'\"/><img style=\"cursor:hand\" id=\"rightup\" src=\"images/rightup_up.png\" onMouseDown=\"rightup_click()\"  onmouseover=\"this.src=' images/rightup_down.png'\" onMouseOut=\"this.src=' images/rightup_up.png'\"/></div>\n\t\t\t\t\t\t<div><img  style=\"cursor:pointer\" id=\"left\" src=\"images/left_up.png\" onMouseDown=\"left_click()\" onMouseOver=\"this.src=' images/left_down.png'\" onMouseOut=\"this.src=' images/left_up.png'\"/><img  style=\"cursor:hand\" id=\"gocenter\" src=\"images/center_up.png\" onMouseOver=\"this.src=' images/center_down.png'\" onMouseOut=\"this.src=' images/center_up.png'\" onClick=\"center_onclick()\"/><img style=\"cursor:hand\" id=\"right\" src=\"images/right_up.png\" onMouseDown=\"right_click()\" onMouseOver=\"this.src=' images/right_down.png'\" onMouseOut=\"this.src=' images/right_up.png'\"/></div>\n\t\t\t\t\t\t<div><img  style=\"cursor:pointer\" id=\"leftdown\" src=\"images/leftdown_up.png\" onMouseDown=\"leftdown_click()\"  onmouseover=\"this.src=' images/leftdown_down.png'\" onMouseOut=\"this.src=' images/leftdown_up.png'\"/><img  style=\"cursor:hand\" id=\"down\" src=\"images/down_up.png\" onMouseDown=\"down_click()\" onMouseOver=\"this.src=' images/down_down.png'\" onMouseOut=\"this.src=' images/down_up.png'\"/><img  style=\"cursor:hand\" id=\"rightdown\" src=\"images/rightdown_up.png\" onMouseDown=\"rightdown_click()\" onMouseOver=\"this.src=' images/rightdown_down.png'\" onMouseOut=\"this.src=' images/rightdown_up.png'\"/></div>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td rowspan=\"3\">&nbsp;&nbsp;</td>\n\t\t\t\t\t<td  align=\"right\" >\n\t\t\t\t\t\t<div style=\"height:40px\"> <img style=\"cursor:pointer\" id=\"vpatrol\" src=\"images/vpatrol_up.png\" onClick=\"vpatrol_onclick()\" onMouseOver=\"this.src=' images/vpatrol_down.png'\" onMouseOut=\"this.src=' images/vpatrol_up.png'\" /> &nbsp;<img style=\"cursor:hand\" id=\"vpatrolstop\" src=\"images/R_stop_up.png\" onClick=\"vpatrolstop_onclick()\" onMouseOver=\"this.src=' images/R_stop_down.png'\" onMouseOut=\"this.src=' images/R_stop_up.png'\" /> </div>\n\t\t\t\t\t\t<div style=\"height:40px\"> <img style=\"cursor:pointer\" id=\"hpatrol\" src=\"images/hpatrol_up.png\" onClick=\"hpatrol_onclick()\" onMouseOver=\"this.src=' images/hpatrol_down.png'\" onMouseOut=\"this.src=' images/hpatrol_up.png'\" /> &nbsp;<img style=\"cursor:hand\" id=\"hpatrolstop\" src=\"images/R_stop_up.png\" onClick=\"hpatrolstop_onclick()\" onMouseOver=\"this.src=' images/R_stop_down.png'\" onMouseOut=\"this.src=' images/R_stop_up.png'\" /></div>\n\t\t\t\t\t\t<div style=\"height:40px\"> <img style=\"cursor:pointer\" id=\"switchon\" src=\"images/switchon_up.png\" onClick=\"decoder_control(IO_ON)\" onMouseOver=\"this.src=' images/switchon_down.png'\" onMouseOut=\"this.src=' images/switchon_up.png'\" /> &nbsp;<img style=\"cursor:hand\" id=\"switchoff\" src=\"images/switchoff_up.png\"  onClick=\"decoder_control(IO_OFF)\" onMouseOver=\"this.src=' images/switchoff_down.png'\" onMouseOut=\"this.src=' images/switchoff_up.png'\" /> </div>\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t</table>\n\t\t</td>\n\t\t<td rowspan=\"3\">&nbsp;&nbsp;</td>\n\t\t\n\t\t<td style=\"font-size:10px;\">&nbsp;&nbsp;<script>document.write(top.str_resolution);</script></td>\n\t\t<td >\n\t\t\t<select id=\"resolution_sel\" style=\"width:80px\" class=\"s4\" onChange=\"set_R(0,this.value)\">&nbsp;<option value=\"8\">320*240</option><option value=\"32\">640*480</option></select>\n\t\t</td>\n\t</tr>\n\t<tr id=\"tr_mode\">\n\t\t<td style=\"font-size:10px;\">&nbsp;&nbsp;<script>document.write(top.str_mode)</script></td>\n\t\t<td> \n\t\t\t<select class=\"s4\" id=\"mode_sel\" style=\"width:80px\" onChange=\"set_M(3,this.value)\">&nbsp;<option value=\"0\">&nbsp;50 HZ&nbsp;</option><option value=\"1\"> &nbsp;60 HZ&nbsp;</option><option value=\"2\"><script>document.write(top.str_outdoor);</script> </option></select>\n\t\t</td>\n\t</tr>\n\t<tr id=\"tr_reversal\">\n\t\t<td style=\"font-size:10px;\"><input id=\"image_reversal\" type=\"checkbox\" onClick=\"set_flip(1,this.checked)\" /><script>document.write(top.str_reversal);</script></td>\n\t\t<td style=\"font-size:10px;\"><input id=\"image_mirror\" type=\"checkbox\" onClick=\"set_flip(2,this.checked)\" /> <script>document.write(top.str_mirror);function Image23_onclick() {}</script></td>\n\t</tr>\n</table>\n\n</body>\n</html>\n",
+			"settings":
+			{
+				"buffer_size": 12597,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 124.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 488.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/a/latexToAsciiMath"
+	],
+	"file_history":
+	[
+		"/home/a/scratchpaper/resources/assets/js/bootstrap.js",
+		"/home/a/scratchpaper/resources/assets/js/scratch-js/keybinds.js",
+		"/home/a/scratchpaper/package.json",
+		"/home/a/scratchpaper/resources/assets/js/scratch-js/scratchfile.js",
+		"/home/a/scratchpaper/resources/assets/js/scratch-js/scratchpaper.js",
+		"/home/a/scratchpaper/resources/assets/js/scratch-js/pageeditor.js",
+		"/home/a/scratchpaper/resources/assets/js/scratch-js/filemanager.js",
+		"/home/a/scratchpaper/resources/assets/js/scratch-js/scratchfolder.js",
+		"/home/a/scratchpaper/resources/views/layouts/app.blade.php",
+		"/home/a/scratchpaper/resources/assets/sass/app/_scratch.scss",
+		"/home/a/scratchpaper/app/Http/Controllers/Api/v1/Pages.php",
+		"/home/a/scratchpaper/app/Http/Controllers/Api/v1/Files.php",
+		"/home/a/Downloads/eda7ec58-8ea2-44cf-a1e2-0b5238add3d8",
+		"/home/a/scratchpaper/database/seeds/UserSeeder.php",
+		"/home/a/scratchpaper/composer.json",
+		"/home/a/scratchpaper/resources/assets/sass/app/mathquill.css",
+		"/home/a/scratchpaper/resources/assets/sass/app/_mathquill.scss",
+		"/home/a/scratchpaper/resources/assets/js/scratch-js/libs/mathquill.js",
+		"/home/a/mathquill/build/mathquill.css",
+		"/home/a/scratchpaper/resources/assets/sass/app.scss",
+		"/home/a/scratchpaper/app/Http/Controllers/Api/v1/Folders.php",
+		"/home/a/scratchpaper/resources/assets/js/scratch-js/utils.js",
+		"/home/a/scratchpaper/app/Transformers/UserTransformer.php",
+		"/home/a/scratchpaper/app/Models/User.php",
+		"/home/a/scratchpaper/app/Models/Folder.php",
+		"/home/a/scratchpaper/app/Transformers/FolderTransformer.php",
+		"/home/a/scratchpaper/database/seeds/FolderSeeder.php",
+		"/home/a/scratchpaper/app/Transformers/FileTransformer.php",
+		"/home/a/scratchpaper/node_modules/request/request.js",
+		"/home/a/docker-streaming-server/documents/examples/docker-compose.yml",
+		"/home/a/docker-streaming-server/assets/etc/nginx/nginx.conf",
+		"/home/a/docker-streaming-server/documents/examples/index.html",
+		"/home/a/Instagram-API/examples/liveBroadcastSFVABF.php",
+		"/home/a/docker-streaming-server/Dockerfile",
+		"/home/a/scratchpaper/routes/web.php",
+		"/home/a/scratchpaper/webpack.mix.js",
+		"/home/a/scratchpaper/resources/assets/js/scratch-js/init.js",
+		"/home/a/scratchpaper/resources/assets/sass/_variables.scss",
+		"/home/a/scratchpaper/resources/assets/sass/landing/_navbar.scss",
+		"/home/a/scratchpaper/resources/assets/sass/landing.scss",
+		"/home/a/scratchpaper/resources/views/landing/index.blade.php",
+		"/home/a/scratchpaper/resources/views/landing/navbar.blade.php",
+		"/home/a/scratchpaper/resources/views/home.blade.php",
+		"/home/a/scratchpaper/resources/assets/js/scratch-js/usermenu.js",
+		"/home/a/scratchpaper/resources/assets/js/scratch-js/user.js",
+		"/home/a/scratchpaper/resources/assets/js/app.js",
+		"/home/a/scratchpaper/resources/assets/sass/_scratch.scss",
+		"/home/a/scratchpaper/public/js/scratch-app.js",
+		"/home/a/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/a/.config/sublime-text-3/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+		"/home/a/scratchpaper/resources/assets/js/scratch-js/interface.js",
+		"/home/a/scratchpaper/composer.lock",
+		"/home/a/scratchStaging/scratchpaper/package.json",
+		"/home/a/scratchpaper/resources/assets/js/scratch-js/scratchline.js",
+		"/home/a/scratchpaper/yarn.lock",
+		"/home/a/scratchpaper/package-lock.json",
+		"/home/a/scratchStaging/scratchpaper/config/database.php",
+		"/home/a/scratchStaging/scratchpaper/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php",
+		"/home/a/scratchpaper/database/factories/ModelFactory.php",
+		"/home/a/scratchpaper/app/Models/File.php",
+		"/home/a/scratchpaper/app/Models/Page.php",
+		"/home/a/scratchpaper/app/Helpers/Helpers.php",
+		"/home/a/scratchpaper/docker-compose.yml",
+		"/home/a/scratchpaper/bitbucket-pipelines.yml",
+		"/home/a/scratchStaging/scratchpaper/webpack.mix.js",
+		"/home/a/scratchStaging/scratchpaper/resources/assets/js/scratch-js/scratchfolder.js",
+		"/home/a/scratchStaging/scratchpaper/resources/assets/js/scratch-js/utils.js",
+		"/home/a/scratchStaging/scratchpaper/resources/assets/js/scratch-js/init.js",
+		"/home/a/scratchStaging/scratchpaper/resources/assets/js/scratch-js/interface.js",
+		"/home/a/scratchStaging/scratchpaper/resources/assets/js/scratch-js/scratchpaper.js",
+		"/home/a/scratchStaging/scratchpaper/resources/assets/js/scratch-js/scratchfile.js",
+		"/home/a/scratchStaging/scratchpaper/resources/assets/js/scratch-js/filemanager.js",
+		"/home/a/scratchStaging/scratchpaper/resources/views/layouts/app.blade.php",
+		"/home/a/scratchStaging/scratchpaper/app/Http/Controllers/Api/v1/Pages.php",
+		"/home/a/scratchStaging/scratchpaper/app/Http/Controllers/Api/v1/Files.php",
+		"/home/a/scratchStaging/scratchpaper/vendor/laravel/passport/database/migrations/2016_06_01_000001_create_oauth_auth_codes_table.php",
+		"/home/a/scratchStaging/scratchpaper/resources/assets/js/scratch-js/libs/clippy.js",
+		"/home/a/scratchpaper/.env",
+		"/home/a/scratchStaging/scratchpaper/docker-compose.yml",
+		"/home/a/scratchStaging/scratchpaper/docker/app/run_alzy_local.sh",
+		"/home/a/scratchStaging/scratchpaper/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/home/a/scratchpaper-text-mode/scratchpaper/docker-compose.yml",
+		"/home/a/scratchpaper-text-mode/scratchpaper/webpack.mix.js",
+		"/home/a/scratchpaper-text-mode/scratchpaper/.env",
+		"/home/a/scratchpaper/public/template/page1.json",
+		"/home/a/scratchpaper/database/migrations/2017_10_29_160257_create_pages_table.php",
+		"/home/a/scratchpaper/database/seeds/PageSeeder.php",
+		"/home/a/scratchpaper-text-mode/scratchpaper/database/factories/ModelFactory.php"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"/home/a/scratchpaper",
+			"/home/a/scratchpaper/app",
+			"/home/a/scratchpaper"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"File Not Saved",
+			"thisActiveFile",
+			"arr",
+			"thisArrayElement",
+			"this",
+			"incl",
+			"echo",
+			"key",
+			"streamUploadUrl",
+			"section>\\n.+<img",
+			"<ul>",
+			"md",
+			"setLineContent",
+			"this.lines[index]",
+			"consol",
+			"fileTree",
+			"Folder",
+			"removeSaveAsPrompt",
+			"domFolder",
+			"Connections",
+			"drop",
+			"Schema::drop",
+			"Connection.php",
+			"this",
+			"conso",
+			"consol",
+			"saveDet",
+			"dom",
+			"domE",
+			"ScratchFile",
+			"folder",
+			"File",
+			"folder",
+			"npm",
+			"scratchW",
+			".object",
+			"object",
+			".ob",
+			"console",
+			"\"latex",
+			"Paper",
+			"consol",
+			"console.log",
+			";\n",
+			"activeScratchPaper",
+			"consol",
+			"activeScratchPaper",
+			"mathQLWrapper",
+			"con",
+			"domPageEditor",
+			"file-manager-wrapper",
+			"domFileManager",
+			"file-manager-wrapper",
+			"user-menu-files-directory",
+			"folder_id",
+			"\\\\",
+			"\\",
+			"file",
+			"File",
+			"api",
+			" = ",
+			"filesFolders",
+			"linesss",
+			"File",
+			"file",
+			"File",
+			"\\\\",
+			"\\"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "latexToAsciiMath/latexToAsciiMath.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7095,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "latexToAsciiMath/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12597,
+								12597
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8953.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "latexToAsciiMath.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
